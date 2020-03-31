@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import { Navbar, Nav } from 'react-bootstrap';
 
-import { Footer } from './components/footer/Footer';
+import { Footer } from './components/Footer';
 import { HomePage } from './views/HomePage';
 import { AboutPage } from './views/AboutPage';
 import { ContactPage } from './views/ContactPage';

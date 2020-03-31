@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.f-card {
+  margin: 20px;
+}
+
+.f-card-img {
+  border-radius: 10px;
+  width: 380px;
+  height: 460px;
+  box-shadow: 0px 0px 3px 1px #ccc;
+}
+
+.f-card-info {
+  margin-top: 10px;
+  min-height: 100px;
+}
+
+.f-card-title {
+  font-size: 24px;
+  margin: 0px;
+}
+
+.f-card-subtitle {
+  font-size: 16px;
+  margin: 0px;
+}
