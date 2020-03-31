@@ -10,7 +10,7 @@ export const Footer = (props) => {
                         {props.home.subtitle}
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3}>
-                        This site was made by Filipe Gomes.
+                    &copy; {1900 + new Date().getYear()} Filipe Gomes
                 </Col>
                 </Row>
             </Container>
