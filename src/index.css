@@ -45,3 +45,13 @@ code {
 .f-footer {
   background-color: dimgrey;
 }
+
+.success-msg {
+  color: #57A773;
+  padding: 10px 15px;
+}
+
+.err-msg {
+  color: #ee6352;
+  padding: 10px 15px;
+}

@@ -26,13 +26,13 @@ class App extends Component {
       home: {
         title: 'Welcome to my Porfolio',
         subtitle: 'Creative expression through code.',
-        text: 'Have a look at some of my projects below'
+        text: 'Find some of my projects below'
       },
       about: {
         title: 'About Me'
       },
       contact: {
-        title: 'How to Find Me'
+        title: 'Let\'s talk'
       }
     }
   }
