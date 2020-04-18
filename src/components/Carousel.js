@@ -26,7 +26,7 @@ export class Carousel extends Component {
                 {
                     id: 1,
                     title: 'bloggr.tech',
-                    subtitle: 'Communitary blog page created with Django',
+                    subtitle: 'Multi-user blog site created with Django',
                     imgSrc: bloggr,
                     link: 'https://bloggr.tech',
                     selected: false

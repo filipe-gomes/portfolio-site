@@ -42,7 +42,10 @@ export class ContactPage extends Component {
                 if (res.data.success) {
                     this.setState({
                         disabled: false,
-                        emailSent: true
+                        emailSent: true,
+                        name: '',
+                        email: '',
+                        message: ''
                     });
                 } else {
                     this.setState({
@@ -59,7 +62,7 @@ export class ContactPage extends Component {
                     emailSent: false
                 });
             })
-        
+
     }
 
     render() {
