@@ -18,7 +18,8 @@ class App extends Component {
       headerLinks: [
         { title: 'Home', path: '/' },
         { title: 'About', path: '/about' },
-        { title: 'Contact', path: '/contact' }
+        { title: 'Contact', path: '/contact' },
+        { title: 'Blog', path: 'https://bloggr.tech' }
       ],
       blog: {
         blogurl: 'https://bloggr.tech'
@@ -51,7 +52,7 @@ class App extends Component {
                   <Link className="nav-link" to="/">Home</Link>
                   <Link className="nav-link" to="/about">About</Link>
                   <Link className="nav-link" to="/contact">Contact</Link>
-
+                  <a className="nav-link" target="_blank" rel="noopener noreferrer" href="https://bloggr.tech">Blog</a>
 
                 </Nav>
               </Navbar.Collapse>
