@@ -12,6 +12,21 @@ code {
     monospace;
 }
 
+@media only screen and (max-width: 1140px) {
+  .profile {
+    display: none;
+  }
+  .title {
+    font-size: medium;
+  }
+  .subtitle {
+    font-size: small;
+  }
+  .text {
+    font-size: x-small;
+  }
+}
+
 .f-about {
   text-align: left;
 }

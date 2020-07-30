@@ -26,19 +26,19 @@ export const Footer = () => {
                     <Col className="p-0" md={3} sm={12}>
                         <a className="float-left p-2" style={{color: "#212529"}} 
                             target="_blank" rel="noopener noreferrer" href="https://github.com/filipe-gomes">
-                            <FontAwesomeIcon icon={['fab', 'github']} size="md" />
+                            <FontAwesomeIcon icon={['fab', 'github']} size="1x" />
                         </a>
                         <a className="float-left p-2" style={{color: "#212529"}}  
                             target="_blank" rel="noopener noreferrer" href="https://stackoverflow.com/users/10173895/filipe">
-                            <FontAwesomeIcon icon={['fab', 'stack-overflow']} size="md" />
+                            <FontAwesomeIcon icon={['fab', 'stack-overflow']} size="1x" />
                         </a>
                         <a className="float-left p-2" style={{color: "#212529"}}  
                             target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/filipe-magalhaes-gomes/">
-                            <FontAwesomeIcon icon={['fab', 'linkedin-in']} size="md" />
+                            <FontAwesomeIcon icon={['fab', 'linkedin-in']} size="1x" />
                         </a>
                         <a className="float-left p-2" style={{color: "#212529"}}  
-                            target="_blank" rel="noopener noreferrer" href="https://twitter.com/master_ulubulu">
-                            <FontAwesomeIcon icon={['fab', 'twitter']} size="md" />
+                            target="_blank" rel="noopener noreferrer" href="https://twitter.com/filipecodes">
+                            <FontAwesomeIcon icon={['fab', 'twitter']} size="1x" />
                         </a>
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3}>

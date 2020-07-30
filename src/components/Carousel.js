@@ -44,8 +44,7 @@ export class Carousel extends Component {
         }
     }
 
-    handleCardClick = (id, card) => {
-        console.log(id)
+    handleCardClick = (id) => {
 
         let items = [...this.state.items];
 
