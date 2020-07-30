@@ -23,7 +23,7 @@ export const Footer = () => {
         <footer className="mt-5">
             <Container>
                 <Row className="border-top justify-content-between p-3">
-                    <Col className="p-0" md={3} sm={12}>
+                    <Col className="p-0" md={12} sm={12}>
                         <a className="float-left p-2" style={{color: "#212529"}} 
                             target="_blank" rel="noopener noreferrer" href="https://github.com/filipe-gomes">
                             <FontAwesomeIcon icon={['fab', 'github']} size="1x" />
@@ -40,10 +40,10 @@ export const Footer = () => {
                             target="_blank" rel="noopener noreferrer" href="https://twitter.com/filipecodes">
                             <FontAwesomeIcon icon={['fab', 'twitter']} size="1x" />
                         </a>
+                        <div className="p-2 d-flex float-right justify-content-end" md={3}>
+                            &copy; {1900 + new Date().getYear()} Filipe Gomes
+                        </div>
                     </Col>
-                    <Col className="p-0 d-flex justify-content-end" md={3}>
-                    &copy; {1900 + new Date().getYear()} Filipe Gomes
-                </Col>
                 </Row>
             </Container>
         </footer>
