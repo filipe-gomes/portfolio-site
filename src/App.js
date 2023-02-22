@@ -7,6 +7,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 import { Footer } from './components/Footer';
 import { HomePage } from './views/HomePage';
 import { AboutPage } from './views/AboutPage';
+import { PrivacyPolicy } from './views/PrivacyPolicy';
 
 class App extends Component {
   constructor(props) {
@@ -53,7 +54,7 @@ class App extends Component {
 
             <Route path="/" exact render={() => <HomePage title={this.state.home.title} subtitle={this.state.home.subtitle} text={this.state.home.text} />} />
             <Route path="/About" exact render={() => <AboutPage title={this.state.about.title} subtitle={this.state.about.subtitle} text={this.state.about.text} />} />
-
+            <Route path="/privacy" exact render={() => <PrivacyPolicy />} />
             <Footer home={home} />
 
           </Container>
