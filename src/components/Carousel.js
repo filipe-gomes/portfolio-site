@@ -45,7 +45,7 @@ export class Carousel extends Component {
                     title: 'WhereToWatch iOS App',
                     subtitle: `Find where your movies/shows are streaming`,
                     imgSrc: wheretowatch,
-                    link: 'https://codeforkc.org/nra_calc/',
+                    link: 'https://github.com/filipe-gomes/where-to-watch',
                     selected: false
                 }
             ]
