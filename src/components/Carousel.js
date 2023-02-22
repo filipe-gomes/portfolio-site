@@ -1,12 +1,13 @@
-import React, { Component }  from 'react';
+import React, { Component } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
 import Card from '../components/Card';
 
 import bloggr from '../assets/images/bloggr.png';
-import aliens from '../assets/images/aliens.png'
-import nracalc from '../assets/images/nracalc.png'
+import aliens from '../assets/images/aliens.png';
+import nracalc from '../assets/images/nracalc.png';
+import wheretowatch from '../assets/images/wheretowatch.png';
 
 
 export class Carousel extends Component {
@@ -38,6 +39,14 @@ export class Carousel extends Component {
                     imgSrc: nracalc,
                     link: 'https://codeforkc.org/nra_calc/',
                     selected: false
+                },
+                {
+                    id: 3,
+                    title: 'WhereToWatch iOS App',
+                    subtitle: `Find where your movies/shows are streaming`,
+                    imgSrc: wheretowatch,
+                    link: 'https://codeforkc.org/nra_calc/',
+                    selected: false
                 }
             ]
 
@@ -56,7 +65,7 @@ export class Carousel extends Component {
             }
         });
 
-        this.setState({items});
+        this.setState({ items });
     }
 
     makeItems = (items) => {

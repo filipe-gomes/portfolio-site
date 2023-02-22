@@ -28,6 +28,10 @@ export const Footer = () => {
                             target="_blank" rel="noopener noreferrer" href="https://github.com/filipe-gomes">
                             <FontAwesomeIcon icon={['fab', 'github']} size="1x" />
                         </a>
+                        <a className="float-left p-2" style={{color: "#212529"}} 
+                            target="_blank" rel="noopener noreferrer" href="https://gitlab.com/filipe-gomes">
+                            <FontAwesomeIcon icon={['fab', 'gitlab']} size="1x" />
+                        </a>
                         <a className="float-left p-2" style={{color: "#212529"}}  
                             target="_blank" rel="noopener noreferrer" href="https://stackoverflow.com/users/10173895/filipe">
                             <FontAwesomeIcon icon={['fab', 'stack-overflow']} size="1x" />

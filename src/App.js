@@ -18,11 +18,7 @@ class App extends Component {
         { title: 'Home', path: '/' },
         { title: 'About', path: '/about' },
         { title: 'Contact', path: 'mailto:filipegomes404@gmail.com' },
-        { title: 'Blog', path: 'https://bloggr.tech' }
       ],
-      blog: {
-        blogurl: 'https://bloggr.tech'
-      },
       home: {
         title: 'Hello.',
         subtitle: 'Welcome to my portfolio',
@@ -51,7 +47,6 @@ class App extends Component {
                   <Link className="nav-link" to="/">Home</Link>
                   <Link className="nav-link" to="/about">About</Link>
                   <a className="nav-link" target="_blank" rel="noopener noreferrer" href="mailto:filipegomes404@gmail.com">Contact</a>
-                  <a className="nav-link" target="_blank" rel="noopener noreferrer" href="https://bloggr.tech">Blog</a>
                 </Nav>
               </Navbar.Collapse>
             </Navbar>
